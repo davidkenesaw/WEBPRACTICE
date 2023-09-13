@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path')
 const app = express();
 
-
+//ejs configuration
 app.set('view engine', 'ejs');//use ejs
 app.use(express.urlencoded({ extended: true }));
 app.set('views', path.join(__dirname, '../Client/views'));//show express the views directory
