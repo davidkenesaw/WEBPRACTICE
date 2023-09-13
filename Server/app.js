@@ -6,12 +6,15 @@ app.get("/",function(req,res){
     res.send("Hello World")
 })
 
+//about route
 app.get("/About", function(req,res){
     res.send("About page")
 })
+//home route
 app.get("/Home", function(req,res){
     res.send("Home page")
 })
+//Login route
 app.get("/Login", function(req,res){
     res.send("Login page")
 })
